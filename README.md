@@ -8,6 +8,6 @@ Building `web` package fails due to `common` having a dependency on ink via open
 
 Building contract works
 
-`cargo +nightly build --target wasm32-unknown-unknown --manifest-path ./web/Cargo.tom`
+`cargo +nightly build --target wasm32-unknown-unknown --manifest-path ./web/Cargo.toml`
 
 Building web fails
