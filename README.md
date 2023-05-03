@@ -26,4 +26,4 @@ error[E0433]: failed to resolve: use of undeclared crate or module `secp256k1`
 ...
 ```
 
-Tried adding ink as a dependency ink `web` but no luck
+Tried adding ink, ink_engine, etc as a dependency to `web` but no luck
