@@ -1,0 +1,25 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
+scale-info = { version = "2.3", default-features = false, features = ["derive"], optional = true }
+openbrush = { tag = "3.1.0",  git = "https://github.com/727-Ventures/openbrush-contracts", default-features = false }
+
+[lib]
+name = "common"
+path = "lib.rs"
+crate-type = [
+  "rlib",
+]
+
+
+[features]
+default = ["std"]
+std = [
+    "scale/std",
+    "scale-info/std",
+    "openbrush/std",
+]
