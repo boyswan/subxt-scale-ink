@@ -1,5 +1,5 @@
 # subxt-scale-ink
-Testing common scale types between `ink` and `wasm32-unknown-unknown` builds. Ie. rust wasm frontend sharing types with ink project, using subxt to submit extrinsics.
+Testing using common scale types between `ink` and `wasm32-unknown-unknown` builds. Ie. rust wasm frontend sharing types with ink project, using subxt to submit extrinsics.
 
 Issue:
 Building `web` package fails due to `common` having a dependency on ink via openbrush.
